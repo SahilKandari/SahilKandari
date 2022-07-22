@@ -1,0 +1,61 @@
+.tempCity {
+  width: 100vw;
+  height: 100vh;
+  overflow: hidden;
+}
+
+.tempCity h2 {
+  color: white;
+  margin-top: 25vh;
+  font-size: 70px;
+}
+.tempCity h3 {
+  /* margin-top: 28vh; */
+  
+  color: white;
+  font-size: 75px;
+  letter-spacing: 2px;
+}
+.tempCity_button {
+  margin-top: 13vh;
+}
+.tempCity_location{
+  margin-top: 23vh;
+}
+.tempCity_weather {
+  padding-right: 6rem;
+  margin-top: 23vh;
+}
+/* @media (max-width: 425px){ .tempCity_location{position: absolute;
+  top: 21rem;
+  left: 18px;}} */
+@media only screen and (max-width: 425px) {
+  .tempCity h2 {
+    margin: 25vh 0 0 5vw;
+  }
+  .tempCity {
+    height: 100vh;
+    width: 100vw;
+    overflow: hidden;
+  }
+  
+  .tempCity_location h3 {
+    font-size: 48px;
+    text-align: center !important;
+    margin-left: 20px;
+  }
+  .tempCity_weather{
+    text-align: center !important;
+    position: relative;
+    bottom: 48rem;
+    left: 45px;
+  }
+  .tempCity_weather h3 {
+    font-size: 48px;
+   
+   
+  }
+  .tempCity_button {
+    padding-right: 0px ;
+  }
+}

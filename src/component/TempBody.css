@@ -1,0 +1,6 @@
+.tempBodyImg{
+    position: fixed;
+    height: 100vh;
+    width: auto;
+    z-index: -10;
+}

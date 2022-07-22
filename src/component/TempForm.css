@@ -1,0 +1,36 @@
+.tempForm{
+  width: 100%;
+}
+.tempForm h1 {
+  color: #ebebeb;
+
+  margin: 28vh 0 0 0;
+}
+
+/* .tempForm_input{
+  background-color: rgba(0, 0, 0, 0);
+  color: white;
+  border-radius: 6px;
+
+} */
+.tempForm_input_focused{
+  background-color: rgba(0, 0, 0, 0.4);
+  color: white;
+  border-radius: 6px;
+  height: 35px;
+  font-size: 20px;
+
+}
+@media only screen and (max-width: 425px){
+	.tempForm h1{
+    font-size: 45px;
+    margin: 10vh 0 0 7vw;
+    color: rgb(1, 75, 100);
+  }
+  .tempForm_input_focused{
+    margin: 14vh 0 0 6vw ;
+  }
+  .tempForm_button{
+    margin: 0 0 0 7vw ;
+  }
+}
