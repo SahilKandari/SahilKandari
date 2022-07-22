@@ -21,7 +21,7 @@ function TempCity(props) {
       </div>
       <div className="col-12 tempCity_button">
         <Button onClick={findMoreSubmitHandler} >
-          Find More Temp
+          Find  Temp
         </Button>
       </div>
       <div className="col-sm-12 col-md-6  tempCity_location ">
